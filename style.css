@@ -228,11 +228,11 @@ footer a{
     section{
         flex-direction: column;
         height: auto;
-        padding: 10px;
+        padding: 1.5rem;
     }
 }
 @media screen and (max-width:1000px) {
     .menu-card{
-        width: 400px ;
+        width: 100%;
     }
 }
