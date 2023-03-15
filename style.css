@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+:root{
+    --primaryColor: #8C025E;
+    --dotted: #D0389D;
+    --secondaryColor: #4a419a;
+    --bg:#FFFBE9;
+    --ddColor: #515050;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+section{
+    background: #FFFBE9;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tl{
+    font-size: 0.9rem;
+}
+.language{
+    display: flex;
+    color: var(--secondaryColor);
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+.menu-card{
+    background: url("https://img.pngio.com/hd-coffee-bean-vector-png-247361-coffee-bean-vector-pattern-coffee-bean-vector-png-3333_3333.png");
+    background-color: var(--bg);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:10px;
+}
+.leafs{
+    padding: 15px 0px 5px;
+    border-top: 0.2rem dotted var(--primaryColor);
+}
+.menu-card-subtitle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.menu-card-subtitle h3{
+    font-size: 2.2em;
+    font-family: 'Nunito', sans-serif;
+    color: var(--secondaryColor);
+}
+.menu-card-subtitle h2{
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: var(--secondaryColor);
+}
+#front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cafe-main-image-brand{
+    flex: 1;
+    width: 100%;
+    height: auto;
+    background-color: var(--bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 1rem;
+
+}
+#cafe-main-image-brand h1{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.0));
+    color: #ffffff;
+    padding: 10px;
+    font-size: 6em;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+#cafe-main-image {
+    height: 18rem;
+}
+
+#front-menu{
+    height:50vh;
+    flex: 1;
+    background-color:var(--bg) ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.menu-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px;
+}
+.menu-time h2{
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 5px;
+    color: var(--primaryColor);
+}
+.hours{
+    margin-top: 2rem;
+}
+td{
+padding: 4px;
+font-size: 19px;
+text-align: left;
+font-weight: 400;
+font-family: 'Nunito', sans-serif;
+color: rgb(95, 95, 95);
+}
+th{
+    padding: 1rem 2rem;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.dashes{
+    margin: 1rem 2rem;
+    border-bottom: 0.3rem dotted var(--primaryColor);
+}
+.place-contact address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+    color: var(--secondaryColor);
+}
+.place-contact address svg{
+    margin-right: 10px;
+}
+.place-contact address a{
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+.cafe-items-container{
+    padding: 20px 10px;
+}
+.cafe-items-container .cafe-items-title{
+    display: flex;
+    flex-direction: column;   
+}
+.cafe-items-title h2{
+    font-size: 2.3em;
+    font-weight: 700;
+    color: var(--secondaryColor)
+}
+.prices{
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: var(--primaryColor);
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem 2.3rem;
+}
+dl{
+    padding: 5px 0;
+}
+dt{
+    font-size: 1.6em;
+    font-weight: 400;
+    color: var(--secondaryColor);
+}
+dd{
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 2px;
+    color: var(--ddColor);
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin: 0 0 1em 1em;
+    padding: 5px;
+    line-height: 1.2em;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background: var(--primaryColor);
+}
+footer a{
+    text-decoration: none;
+    color: #e2e1e0;
+    font-size: 1.3em;
+    letter-spacing: 0.6px;
+    font-family: 'Nunito', sans-serif;
+}
+@media screen and (max-width:850px) {
+    section{
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .menu-card{
+        width: 400px ;
+    }
+}
